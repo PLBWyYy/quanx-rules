@@ -1,4 +1,4 @@
-#!name=广告拦截合集-重写
+^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoA.js#!name=广告拦截合集-重写
 #!desc=(R)针对部分APP和小程序广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！
 #!author=奶思
 #!homepage=https://github.com/fmz200/wool_scripts
@@ -191,6 +191,7 @@
 ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoA.js
 ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|ViewProgress) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoA.js
 ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmView url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoA.js
+^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoA.js
 ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoA.js
 # 观影页,直播间商品广告浮窗,搜索框填充词,首页信息流,热搜发现,右上角活动,标签页
 ^https?:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js
